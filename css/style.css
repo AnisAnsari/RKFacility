@@ -198,7 +198,18 @@ h6,
     object-fit: cover;
   }
 }
+#header-carousel .carousel-item img {
+  object-fit: cover;
+  height: 94vh;
+}
 
+@media (max-width: 768px) {
+  #header-carousel .carousel-item {
+    position: relative;
+    height: 200px;
+    /* height: 30vh; */
+  }
+}
 .page-header {
   padding-top: 12rem;
   padding-bottom: 6rem;
@@ -215,9 +226,14 @@ h6,
   color: var(--tertiary);
 }
 
+.about-us-img {
+  height: 80vh;
+  width: 100%;
+}
+
 /*** Facts ***/
 .facts {
-  background: linear-gradient(rgba(53, 94, 252, 0.95), rgba(53, 94, 252, 0.95)),
+  background: linear-gradient(rgba(53, 94, 252, 0.5), rgba(53, 94, 252, 0.8)),
     url(../img/bg.png);
 }
 
