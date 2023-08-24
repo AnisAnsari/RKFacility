@@ -31,6 +31,7 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -132,7 +133,35 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto p-4 p-lg-0">
             <a href="index.html" class="nav-item nav-link active">Home</a>
-            <a href="about.html" class="nav-item nav-link">About</a>
+            <!-- <a href="about.html" class="nav-item nav-link">About</a> -->
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >About</a
+              >
+              <div class="dropdown-menu border-light m-0">
+                <a
+                  href="about.html"
+                  class="dropdown-item"
+                  >About Us</a
+                >
+                <a
+                  href="our-team.html"
+                  class="dropdown-item"
+                  >Our Team</a
+                >
+                <a
+                  href="certificate.html"
+                  class="dropdown-item"
+                  >Certificate</a
+                >
+                <a href="why-choosing-us.html" class="dropdown-item"
+                  >Why Us</a
+                >
+              </div>
+            </div>
             <div class="nav-item dropdown">
               <a
                 href="#"
@@ -166,7 +195,6 @@
             </div>
             <a href="testimonial.html" class="nav-item nav-link">Testimonial</a>
             <a href="client.html" class="nav-item nav-link">Client</a>
-            <a href="our-team.html" class="nav-item nav-link">Our Team</a>
             <a href="gallery.html" class="nav-item nav-link">Gallery</a>
             <a href="contact.html" class="nav-item nav-link">Contact</a>
           </div>
@@ -473,322 +501,6 @@
     </div>
     <!-- Features End -->
 
-    <!-- Service Start -->
-    <div class="container-xxl service py-5">
-      <div class="container">
-        <div
-          class="text-center mx-auto wow fadeInUp"
-          data-wow-delay="0.1s"
-          style="max-width: 600px"
-        >
-          <p
-            class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3"
-          >
-            Our Services
-          </p>
-          <h1 class="display-5 mb-5">
-            Awesome Financial Services For Business
-          </h1>
-        </div>
-        <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="col-lg-4">
-            <div
-              class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4"
-            >
-              <button
-                class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4 active"
-                data-bs-toggle="pill"
-                data-bs-target="#tab-pane-1"
-                type="button"
-              >
-                <h5 class="m-0">
-                  <i class="fa fa-bars text-primary me-3"></i>Financial Planning
-                </h5>
-              </button>
-              <button
-                class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4"
-                data-bs-toggle="pill"
-                data-bs-target="#tab-pane-2"
-                type="button"
-              >
-                <h5 class="m-0">
-                  <i class="fa fa-bars text-primary me-3"></i>Cash Investment
-                </h5>
-              </button>
-              <button
-                class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4"
-                data-bs-toggle="pill"
-                data-bs-target="#tab-pane-3"
-                type="button"
-              >
-                <h5 class="m-0">
-                  <i class="fa fa-bars text-primary me-3"></i>Financial
-                  Consultancy
-                </h5>
-              </button>
-              <button
-                class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-0"
-                data-bs-toggle="pill"
-                data-bs-target="#tab-pane-4"
-                type="button"
-              >
-                <h5 class="m-0">
-                  <i class="fa fa-bars text-primary me-3"></i>Business Loans
-                </h5>
-              </button>
-            </div>
-          </div>
-          <div class="col-lg-8">
-            <div class="tab-content w-100">
-              <div class="tab-pane fade show active" id="tab-pane-1">
-                <div class="row g-4">
-                  <div class="col-md-6" style="min-height: 350px">
-                    <div class="position-relative h-100">
-                      <img
-                        class="position-absolute rounded w-100 h-100"
-                        src="img/service-1.jpg"
-                        style="object-fit: cover"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <h3 class="mb-4">
-                      25 Years Of Experience In Financial Support
-                    </h3>
-                    <p class="mb-4">
-                      Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-                      sit. Aliqu diam amet diam et eos. Clita erat ipsum et
-                      lorem et sit, sed stet lorem sit clita duo justo erat
-                      amet.
-                    </p>
-                    <p>
-                      <i class="fa fa-check text-primary me-3"></i>Secured Loans
-                    </p>
-                    <p>
-                      <i class="fa fa-check text-primary me-3"></i>Credit
-                      Facilities
-                    </p>
-                    <p>
-                      <i class="fa fa-check text-primary me-3"></i>Cash Advanced
-                    </p>
-                    <a href="" class="btn btn-primary py-3 px-5 mt-3"
-                      >Read More</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane fade" id="tab-pane-2">
-                <div class="row g-4">
-                  <div class="col-md-6" style="min-height: 350px">
-                    <div class="position-relative h-100">
-                      <img
-                        class="position-absolute rounded w-100 h-100"
-                        src="img/service-2.jpg"
-                        style="object-fit: cover"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <h3 class="mb-4">
-                      25 Years Of Experience In Financial Support
-                    </h3>
-                    <p class="mb-4">
-                      Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-                      sit. Aliqu diam amet diam et eos. Clita erat ipsum et
-                      lorem et sit, sed stet lorem sit clita duo justo erat
-                      amet.
-                    </p>
-                    <p>
-                      <i class="fa fa-check text-primary me-3"></i>Secured Loans
-                    </p>
-                    <p>
-                      <i class="fa fa-check text-primary me-3"></i>Credit
-                      Facilities
-                    </p>
-                    <p>
-                      <i class="fa fa-check text-primary me-3"></i>Cash Advanced
-                    </p>
-                    <a href="" class="btn btn-primary py-3 px-5 mt-3"
-                      >Read More</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane fade" id="tab-pane-3">
-                <div class="row g-4">
-                  <div class="col-md-6" style="min-height: 350px">
-                    <div class="position-relative h-100">
-                      <img
-                        class="position-absolute rounded w-100 h-100"
-                        src="img/service-3.jpg"
-                        style="object-fit: cover"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <h3 class="mb-4">
-                      25 Years Of Experience In Financial Support
-                    </h3>
-                    <p class="mb-4">
-                      Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-                      sit. Aliqu diam amet diam et eos. Clita erat ipsum et
-                      lorem et sit, sed stet lorem sit clita duo justo erat
-                      amet.
-                    </p>
-                    <p>
-                      <i class="fa fa-check text-primary me-3"></i>Secured Loans
-                    </p>
-                    <p>
-                      <i class="fa fa-check text-primary me-3"></i>Credit
-                      Facilities
-                    </p>
-                    <p>
-                      <i class="fa fa-check text-primary me-3"></i>Cash Advanced
-                    </p>
-                    <a href="" class="btn btn-primary py-3 px-5 mt-3"
-                      >Read More</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane fade" id="tab-pane-4">
-                <div class="row g-4">
-                  <div class="col-md-6" style="min-height: 350px">
-                    <div class="position-relative h-100">
-                      <img
-                        class="position-absolute rounded w-100 h-100"
-                        src="img/service-4.jpg"
-                        style="object-fit: cover"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <h3 class="mb-4">
-                      25 Years Of Experience In Financial Support
-                    </h3>
-                    <p class="mb-4">
-                      Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-                      sit. Aliqu diam amet diam et eos. Clita erat ipsum et
-                      lorem et sit, sed stet lorem sit clita duo justo erat
-                      amet.
-                    </p>
-                    <p>
-                      <i class="fa fa-check text-primary me-3"></i>Secured Loans
-                    </p>
-                    <p>
-                      <i class="fa fa-check text-primary me-3"></i>Credit
-                      Facilities
-                    </p>
-                    <p>
-                      <i class="fa fa-check text-primary me-3"></i>Cash Advanced
-                    </p>
-                    <a href="" class="btn btn-primary py-3 px-5 mt-3"
-                      >Read More</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Service End -->
-
-    <!-- Callback Start -->
-    <div class="container-fluid callback my-5 pt-5">
-      <div class="container pt-5">
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <div
-              class="bg-white border rounded p-4 p-sm-5 wow fadeInUp"
-              data-wow-delay="0.5s"
-            >
-              <div
-                class="text-center mx-auto wow fadeInUp"
-                data-wow-delay="0.1s"
-                style="max-width: 600px"
-              >
-                <p
-                  class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3"
-                >
-                  Get In Touch
-                </p>
-                <h1 class="display-5 mb-5">Request A Call-Back</h1>
-              </div>
-              <div class="row g-3">
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                    />
-                    <label for="name">Your Name</label>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="mail"
-                      placeholder="Your Email"
-                    />
-                    <label for="mail">Your Email</label>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="mobile"
-                      placeholder="Your Mobile"
-                    />
-                    <label for="mobile">Your Mobile</label>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="subject"
-                      placeholder="Subject"
-                    />
-                    <label for="subject">Subject</label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-floating">
-                    <textarea
-                      class="form-control"
-                      placeholder="Leave a message here"
-                      id="message"
-                      style="height: 100px"
-                    ></textarea>
-                    <label for="message">Message</label>
-                  </div>
-                </div>
-                <div class="col-12 text-center">
-                  <button class="btn btn-primary w-100 py-3" type="submit">
-                    Submit Now
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Callback End -->
-
     <!-- Projects Start -->
     <div class="container-xxl py-5">
       <div class="container">
@@ -800,9 +512,9 @@
           <p
             class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3"
           >
-            Our Projects
+            Our Services
           </p>
-          <h1 class="display-5 mb-5">We Have Completed Latest Projects</h1>
+          <h1 class="display-5 mb-5">we understand the importance of maintaining </h1>
         </div>
         <div
           class="owl-carousel project-carousel wow fadeInUp"
@@ -810,38 +522,47 @@
         >
           <div class="project-item pe-5 pb-5">
             <div class="project-img mb-3">
-              <img class="img-fluid rounded" src="img/service-1.jpg" alt="" />
-              <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
+              <img class="img-fluid rounded" src="img/CommercialHousekeeping.jpg" alt="" />
+              <a href="service-details.html"><i class="fa fa-link fa-3x text-primary"></i></a>
             </div>
             <div class="project-title">
-              <h4 class="mb-0">Financial Planning</h4>
+              <h6 class="mb-0">Commercial Housekeeping Services</h6>
             </div>
           </div>
           <div class="project-item pe-5 pb-5">
             <div class="project-img mb-3">
-              <img class="img-fluid rounded" src="img/service-2.jpg" alt="" />
-              <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
+              <img class="img-fluid rounded" src="img/ResidentialHousekeeping.jpg" alt="" />
+              <a href="service-details.html"><i class="fa fa-link fa-3x text-primary"></i></a>
             </div>
             <div class="project-title">
-              <h4 class="mb-0">Cash Investment</h4>
+              <h6 class="mb-0">Residential Housekeeping Services</h6>
             </div>
           </div>
           <div class="project-item pe-5 pb-5">
             <div class="project-img mb-3">
-              <img class="img-fluid rounded" src="img/service-3.jpg" alt="" />
-              <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
+              <img class="img-fluid rounded" src="img/IndustrialHousekeeping.jpg" alt="" />
+              <a href="service-details.html"><i class="fa fa-link fa-3x text-primary"></i></a>
             </div>
             <div class="project-title">
-              <h4 class="mb-0">Financial Consultancy</h4>
+              <h6 class="mb-0">Industrial Housekeeping Services</h6>
             </div>
           </div>
           <div class="project-item pe-5 pb-5">
             <div class="project-img mb-3">
-              <img class="img-fluid rounded" src="img/service-4.jpg" alt="" />
-              <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
+              <img class="img-fluid rounded" src="img/PantryServices.jpg" alt="" />
+              <a href="service-details.html"><i class="fa fa-link fa-3x text-primary"></i></a>
             </div>
             <div class="project-title">
-              <h4 class="mb-0">Business Loans</h4>
+              <h6 class="mb-0">Pantry Services</h6>
+            </div>
+          </div>
+          <div class="project-item pe-5 pb-5">
+            <div class="project-img mb-3">
+              <img class="img-fluid rounded" src="img/OfficeBoy.jpg" alt="" />
+              <a href="service-details.html"><i class="fa fa-link fa-3x text-primary"></i></a>
+            </div>
+            <div class="project-title">
+              <h6 class="mb-0">Office Boy Services</h6>
             </div>
           </div>
         </div>
@@ -867,38 +588,22 @@
         <div class="row g-4">
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="team-item">
-              <img class="img-fluid rounded" src="img/team-1.jpg" alt="" />
+              <img class="img-fluid rounded" src="img/team-1.jpeg" alt="" />
               <div class="team-text">
-                <h4 class="mb-0">Kate Winslet</h4>
+                <h4 class="mb-0">Ranjeet Sonawane</h4>
                 <div class="team-social d-flex">
-                  <a class="btn btn-square rounded-circle mx-1" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-square rounded-circle mx-1" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-square rounded-circle mx-1" href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
+                  <h4>Director</h4>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="team-item">
-              <img class="img-fluid rounded" src="img/team-2.jpg" alt="" />
+              <img class="img-fluid rounded" src="img/team-2.jpeg" alt="" />
               <div class="team-text">
-                <h4 class="mb-0">Jac Jacson</h4>
+                <h4 class="mb-0">Sunil Solkar</h4>
                 <div class="team-social d-flex">
-                  <a class="btn btn-square rounded-circle mx-1" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-square rounded-circle mx-1" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-square rounded-circle mx-1" href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
+                  <h4>Sr. OPS Manager</h4>
                 </div>
               </div>
             </div>
@@ -909,15 +614,7 @@
               <div class="team-text">
                 <h4 class="mb-0">Doris Jordan</h4>
                 <div class="team-social d-flex">
-                  <a class="btn btn-square rounded-circle mx-1" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-square rounded-circle mx-1" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-square rounded-circle mx-1" href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
+                  <h4>Manager</h4>
                 </div>
               </div>
             </div>
@@ -1019,23 +716,64 @@
     </div>
     <!-- Testimonial End -->
 
+    <!-- client Start -->
+    <div class="container-xxl py-5 bg-light">
+      <div class="container">
+        <div
+          class="text-center mx-auto wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <p
+            class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3"
+          >
+          OUR CLIENT
+          </p>
+          <h1 class="display-5 mb-5">Happy With Our Service</h1>
+        </div>
+        <div
+          class="wow fadeInUp"
+          data-wow-delay="0.3s"
+        >
+        <div class="row gy-5 gx-4">
+          <section class="customer-logos slider">
+              <div class="slide"><img src="img/client-1.png"></div>
+              <div class="slide"><img src="img/client-2.png"></div>
+              <div class="slide"><img src="img/client-3.png"></div>
+              <div class="slide"><img src="img/client-4.png"></div>
+              <div class="slide"><img src="img/client-5.png"></div>
+              <div class="slide"><img src="img/client-6.png"></div>
+              <div class="slide"><img src="img/client-7.png"></div>
+              <div class="slide"><img src="img/client-8.png"></div>
+              <div class="slide"><img src="img/client-9.png"></div>
+              <div class="slide"><img src="img/client-11.png"></div>
+              <div class="slide"><img src="img/client-12.png"></div>
+              <div class="slide"><img src="img/client-13.png"></div>
+              <div class="slide"><img src="img/client-14.png"></div>
+             
+           </section>
+      </div>
+        </div>
+      </div>
+    </div>
+    <!-- client End -->
+
     <!-- Footer Start -->
     <div
-      class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn"
+      class="container-fluid bg-dark text-light footer py-5 wow fadeIn"
       data-wow-delay="0.1s"
     >
-      <div class="container py-5">
+      <div class="container">
         <div class="row g-5">
           <div class="col-lg-3 col-md-6">
             <h4 class="text-white mb-4">Our Office</h4>
             <p class="mb-2">
-              <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
+              <i class="fa fa-map-marker-alt me-3"></i>123 Street, Mumbai, India
             </p>
             <p class="mb-2">
-              <i class="fa fa-phone-alt me-3"></i>+012 345 67890
+              <i class="fa fa-phone-alt me-3"></i>+91 7558624820
             </p>
             <p class="mb-2">
-              <i class="fa fa-envelope me-3"></i>info@example.com
+              <i class="fa fa-envelope me-3"></i>rkfacility@gmail.com
             </p>
             <div class="d-flex pt-2">
               <a
@@ -1061,61 +799,37 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <h4 class="text-white mb-4">Services</h4>
-            <a class="btn btn-link" href="">Financial Planning</a>
-            <a class="btn btn-link" href="">Cash Investment</a>
-            <a class="btn btn-link" href="">Financial Consultancy</a>
-            <a class="btn btn-link" href="">Business Loans</a>
-            <a class="btn btn-link" href="">Business Analysis</a>
+            <h4 class="text-white mb-4">Residence Services</h4>
+            <a class="btn btn-link" href="#">Residential Deep Cleaning Services</a>
+            <a class="btn btn-link" href="">Kitchen Deep Cleaning Services</a>
+            <a class="btn btn-link" href="">Multiple Housekeeping Services</a>
+            <a class="btn btn-link" href="">Toilet Deep Cleaning Services</a> 
+            <a class="btn btn-link" href="">Residence Housekeeping Services </a>
+            <a class="btn btn-link" href="">Carpet Cleaning Services</a>
           </div>
           <div class="col-lg-3 col-md-6">
-            <h4 class="text-white mb-4">Quick Links</h4>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
+            <h4 class="text-white mb-4">Industry Services</h4>
+            <a class="btn btn-link" href="">Shopping Mall Housekeeping Services</a>
+            <a class="btn btn-link" href="">Bank Housekeeping Services </a>
+            <a class="btn btn-link" href="">Events Cleaning Services </a>
+            <a class="btn btn-link" href="">Hotel Housekeeping Services </a>
+            <a class="btn btn-link" href="">Hospital Office Housekeeping Services </a>
+            <a class="btn btn-link" href="">Swimming Pool Cleaning Services</a>
+            <a class="btn btn-link" href="">School Housekeeping Services</a>
           </div>
           <div class="col-lg-3 col-md-6">
-            <h4 class="text-white mb-4">Newsletter</h4>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-            <div class="position-relative w-100">
-              <input
-                class="form-control bg-white border-0 w-100 py-3 ps-4 pe-5"
-                type="text"
-                placeholder="Your email"
-              />
-              <button
-                type="button"
-                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
-              >
-                SignUp
-              </button>
-            </div>
+            <h4 class="text-white mb-4">Commercial Services</h4>
+            <a class="btn btn-link" href="">Commercial  Housekeeping Services</a>
+            <a class="btn btn-link" href="">Commercial Deep Cleaning Services</a>
+            <a class="btn btn-link" href="">Office Deep Cleaning Services</a>
+            <a class="btn btn-link" href="">College Housekeeping Services </a>
+            <a class="btn btn-link" href="">Chair Cleaning Services</a>
+            <a class="btn btn-link" href="">Guest House Vacuum Cleaning Services </a>
           </div>
         </div>
       </div>
     </div>
     <!-- Footer End -->
-
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright py-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All
-            Right Reserved.
-          </div>
-          <div class="col-md-6 text-center text-md-end">
-            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            Designed By
-            <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-            Distributed By <a href="https://themewagon.com">ThemeWagon</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Copyright End -->
 
     <!-- Back to Top -->
     <a
@@ -1132,6 +846,9 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/slick/slick.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

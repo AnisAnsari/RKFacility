@@ -32,7 +32,7 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -138,10 +138,24 @@
               >About</a
             >
             <div class="dropdown-menu border-light m-0">
-              <a href="about.html" class="dropdown-item">About Us</a>
-              <a href="our-team.html" class="dropdown-item">Our Team</a>
-              <a href="certificate.html" class="dropdown-item">Certificate</a>
-              <a href="why-choosing-us.html" class="dropdown-item">Why Us</a>
+              <a
+                href="about.html"
+                class="dropdown-item"
+                >About Us</a
+              >
+              <a
+                href="our-team.html"
+                class="dropdown-item"
+                >Our Team</a
+              >
+              <a
+                href="certificate.html"
+                class="dropdown-item"
+                >Certificate</a
+              >
+              <a href="why-choosing-us.html" class="dropdown-item"
+                >Why Us</a
+              >
             </div>
           </div>
           <div class="nav-item dropdown">
@@ -177,7 +191,7 @@
           </div>
           <a href="testimonial.html" class="nav-item nav-link">Testimonial</a>
           <a href="client.html" class="nav-item nav-link">Client</a>
-          <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+          <a href="gallery.html" class="nav-item nav-link active">Gallery</a>
           <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
       </div>
@@ -185,16 +199,15 @@
   </div>
   <!-- Navbar End -->
 
-
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
-            <h1 class="display-3 mb-4 animated slideInDown">404 Error</h1>
+            <h1 class="display-3 mb-4 animated slideInDown">Gallery</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">404 Error</li>
+                    <!-- <li class="breadcrumb-item"><a href="#">Pages</a></li> -->
+                    <li class="breadcrumb-item active" aria-current="page">Gallery</li>
                 </ol>
             </nav>
         </div>
@@ -202,22 +215,74 @@
     <!-- Page Header End -->
 
 
-    <!-- 404 Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <i class="bi bi-exclamation-triangle display-1 text-primary"></i>
-                    <h1 class="display-1">404</h1>
-                    <h1 class="mb-4">Page Not Found</h1>
-                    <p class="mb-4">We’re sorry, the page you have looked for does not exist in our website! Maybe go to
-                        our home page or try to use a search?</p>
-                    <a class="btn btn-primary py-3 px-5" href="">Go Back To Home</a>
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <!-- <div class="row g-4 align-items-end mb-4"> -->
+                
+                <div class="row gx-4 align-items-end mb-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="row g-0">
+                            <div class="col-12 mb-3">
+                                <a class="d-block" href="img/carousel-1.jpg" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="col-12">
+                                <a class="d-block" href="img/carousel-2.jpg" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="row g-0">
+                            <div class="col-12 mb-3">
+                                <a class="d-block" href="img/CommercialHousekeeping.jpg" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/CommercialHousekeeping.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="col-12">
+                                <a class="d-block" href="img/ResidentialHousekeeping.jpg" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/ResidentialHousekeeping.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="row g-0">
+                            <div class="col-12 mb-3">
+                                <a class="d-block" href="img/IndustrialHousekeeping.jpg" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/IndustrialHousekeeping.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="col-12">
+                                <a class="d-block" href="img/PantryServices.jpg" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/PantryServices.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="row g-0">
+                            <div class="col-12 mb-3">
+                                <a class="d-block" href="img/client-1.png" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/client-1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-12">
+                                <a class="d-block" href="img/client-11.png" data-lightbox="gallery">
+                                    <img class="img-fluid" src="img/client-11.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
-            </div>
+           
         </div>
     </div>
-    <!-- 404 End -->
+    <!-- About End -->
 
 
     <!-- Footer Start -->
@@ -263,68 +328,56 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <h4 class="text-white mb-4">Residence Services</h4>
-            <a class="btn btn-link" href="#"
-              >Residential Deep Cleaning Services</a
-            >
+            <a class="btn btn-link" href="#">Residential Deep Cleaning Services</a>
             <a class="btn btn-link" href="">Kitchen Deep Cleaning Services</a>
             <a class="btn btn-link" href="">Multiple Housekeeping Services</a>
-            <a class="btn btn-link" href="">Toilet Deep Cleaning Services</a>
+            <a class="btn btn-link" href="">Toilet Deep Cleaning Services</a> 
             <a class="btn btn-link" href="">Residence Housekeeping Services </a>
             <a class="btn btn-link" href="">Carpet Cleaning Services</a>
           </div>
           <div class="col-lg-3 col-md-6">
             <h4 class="text-white mb-4">Industry Services</h4>
-            <a class="btn btn-link" href=""
-              >Shopping Mall Housekeeping Services</a
-            >
+            <a class="btn btn-link" href="">Shopping Mall Housekeeping Services</a>
             <a class="btn btn-link" href="">Bank Housekeeping Services </a>
             <a class="btn btn-link" href="">Events Cleaning Services </a>
             <a class="btn btn-link" href="">Hotel Housekeeping Services </a>
-            <a class="btn btn-link" href=""
-              >Hospital Office Housekeeping Services
-            </a>
+            <a class="btn btn-link" href="">Hospital Office Housekeeping Services </a>
             <a class="btn btn-link" href="">Swimming Pool Cleaning Services</a>
             <a class="btn btn-link" href="">School Housekeeping Services</a>
           </div>
           <div class="col-lg-3 col-md-6">
             <h4 class="text-white mb-4">Commercial Services</h4>
-            <a class="btn btn-link" href="">Commercial Housekeeping Services</a>
-            <a class="btn btn-link" href=""
-              >Commercial Deep Cleaning Services</a
-            >
+            <a class="btn btn-link" href="">Commercial  Housekeeping Services</a>
+            <a class="btn btn-link" href="">Commercial Deep Cleaning Services</a>
             <a class="btn btn-link" href="">Office Deep Cleaning Services</a>
             <a class="btn btn-link" href="">College Housekeeping Services </a>
             <a class="btn btn-link" href="">Chair Cleaning Services</a>
-            <a class="btn btn-link" href=""
-              >Guest House Vacuum Cleaning Services
-            </a>
+            <a class="btn btn-link" href="">Guest House Vacuum Cleaning Services </a>
           </div>
         </div>
       </div>
     </div>
     <!-- Footer End -->
 
+
     <!-- Back to Top -->
-    <a
-      href="#"
-      class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
-      ><i class="bi bi-arrow-up"></i
-    ></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/parallax/parallax.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="lib/slick/slick.js"></script>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/parallax/parallax.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+<script src="lib/slick/slick.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
 </body>
 
 </html>
